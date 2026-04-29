@@ -79,7 +79,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: asset("/favicon.ico"),
+    icon: [
+      { url: asset("/icon.svg"), type: "image/svg+xml" },
+    ],
   },
   category: "insurance",
 };
