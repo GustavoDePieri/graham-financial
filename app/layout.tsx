@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Fraunces } from "next/font/google";
 import { content } from "@/lib/content";
+import { asset } from "@/lib/asset-path";
 import { LocalBusinessJsonLd } from "@/components/schema/local-business";
 import { Header } from "@/components/sections/header";
 import { Footer } from "@/components/sections/footer";
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
       "Personalized, no-cost Medicare guidance from a family-owned brokerage with over 33 years of experience.",
     images: [
       {
-        url: "/og.png",
+        url: asset("/og.png"),
         width: 1200,
         height: 630,
         alt: `${business.name} — family-owned Medicare brokers since ${business.foundedYear}`,
@@ -65,7 +66,7 @@ export const metadata: Metadata = {
     title: "Medicare Insurance Brokers | Graham Financial Group",
     description:
       "Family-owned Medicare brokers in Lake Worth Beach, FL. Licensed nationwide. Free consultation, no pressure.",
-    images: ["/og.png"],
+    images: [asset("/og.png")],
   },
   robots: {
     index: true,
@@ -78,7 +79,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: asset("/favicon.ico"),
   },
   category: "insurance",
 };

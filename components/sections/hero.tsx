@@ -2,6 +2,7 @@ import Image from "next/image";
 import { content } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import { Icon } from "@/components/icon";
+import { asset } from "@/lib/asset-path";
 
 export function Hero() {
   const { hero, business } = content;
@@ -71,7 +72,7 @@ export function Hero() {
 
               <div className="relative aspect-[3/2] rounded-[var(--radius-xl)] overflow-hidden bg-[var(--color-cream-200)] shadow-[var(--shadow-elevated)] ring-1 ring-[var(--color-cream-300)]">
                 <Image
-                  src={hero.image.src}
+                  src={asset(hero.image.src)}
                   alt={hero.image.alt}
                   fill
                   priority

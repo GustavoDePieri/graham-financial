@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { content } from "@/lib/content";
+import { asset } from "@/lib/asset-path";
 
 export function ThenAndNow() {
   const { aboutTimeline } = content;
@@ -24,7 +25,7 @@ export function ThenAndNow() {
             <figure key={item.year} className="group">
               <div className="relative aspect-[4/3] rounded-[var(--radius-xl)] overflow-hidden bg-[var(--color-cream-200)] shadow-[var(--shadow-elevated)] ring-1 ring-[var(--color-cream-300)]">
                 <Image
-                  src={item.image.src}
+                  src={asset(item.image.src)}
                   alt={item.image.alt}
                   fill
                   sizes="(min-width: 1024px) 45vw, (min-width: 768px) 48vw, 100vw"
