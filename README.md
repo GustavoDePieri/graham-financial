@@ -1,6 +1,6 @@
-# Graham Financial Group — Landing Page
+# Graham Financial Group: Landing Page
 
-Multi-page marketing site for **Graham Financial Group, Inc.** — a family-owned Medicare insurance brokerage in Lake Worth Beach, FL.
+Multi-page marketing site for **Graham Financial Group, Inc.**, a family-owned Medicare insurance brokerage in Lake Worth Beach, FL.
 
 Built for a 65+ audience: calm, legible, accessible, and conversion-focused (phone call + contact form).
 
@@ -18,7 +18,7 @@ Built for a 65+ audience: calm, legible, accessible, and conversion-focused (pho
 
 | Route | Description |
 |-------|-------------|
-| `/` | Homepage — hero with family photo, services preview, about, testimonials, FAQ, contact form |
+| `/` | Homepage: hero with family photo, services preview, about, testimonials, FAQ, contact form |
 | `/about` | Then & Now photos, our story, why Graham is the right choice, team teaser |
 | `/services` | Medicare, Medigap, Part D, Advantage breakdown + FAQ |
 | `/staff` | Six licensed brokers with phone + email |
@@ -54,9 +54,9 @@ Replace before launch (testimonial copy, BBB rating, geo coordinates, Medicare d
 
 Images live in `public/images/`:
 
-- `family.png` — hero family portrait
-- `1992.jpg` — black-and-white "Then" photo on `/about`
-- `today.jpg` — color "Now" photo on `/about`
+- `family.png`: hero family portrait
+- `1992.jpg`: black-and-white "Then" photo on `/about`
+- `today.jpg`: color "Now" photo on `/about`
 
 Static export disables `next/image` optimization (`images.unoptimized: true`), so files are served as-is. Compress them with [Squoosh](https://squoosh.app) before committing if size matters.
 
@@ -67,7 +67,7 @@ The repo includes a workflow at `.github/workflows/deploy.yml` that builds and d
 **One-time setup:**
 
 1. **Create the repo** on GitHub and push this code.
-2. **Pick a form provider** — sign up at [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com), or [Getform](https://getform.io). Get your endpoint URL.
+2. **Pick a form provider**. Sign up at [Formspree](https://formspree.io), [Web3Forms](https://web3forms.com), or [Getform](https://getform.io). Get your endpoint URL.
 3. **Add a repo secret** at *Settings → Secrets and variables → Actions → New repository secret*:
    - Name: `CONTACT_ENDPOINT`
    - Value: the endpoint URL from step 2 (e.g. `https://formspree.io/f/abc123`)
@@ -93,7 +93,7 @@ Browse <http://localhost:3000>.
 
 ## Accessibility
 
-- WCAG 2.1 AA target — verify with [axe DevTools](https://www.deque.com/axe/devtools/) before launch.
+- WCAG 2.1 AA target. Verify with [axe DevTools](https://www.deque.com/axe/devtools/) before launch.
 - Body text minimum 16px mobile / 18px desktop.
 - All interactive elements keyboard-reachable; focus is always visible.
 - Escape closes the mobile menu; arrow keys navigate the FAQ accordion (Radix default).
@@ -118,4 +118,4 @@ Browse <http://localhost:3000>.
 
 ## License
 
-Proprietary — © 2026 Graham Financial Group, Inc.
+Proprietary. © 2026 Graham Financial Group, Inc.

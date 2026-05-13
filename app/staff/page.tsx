@@ -5,9 +5,9 @@ import { CTABanner } from "@/components/sections/cta-banner";
 import { content } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Meet the Team — Graham Financial Group",
+  title: "Meet the Team | Graham Financial Group",
   description:
-    "Meet the licensed Medicare brokers behind Graham Financial Group — three generations of the Graham family plus the team that supports them.",
+    "Meet the licensed Medicare brokers behind Graham Financial Group: three generations of the Graham family plus the team that supports them.",
   alternates: { canonical: "/staff" },
 };
 

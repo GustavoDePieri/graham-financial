@@ -4,7 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "Reviews & Testimonials — Graham Financial Group",
+  title: "Reviews & Testimonials | Graham Financial Group",
   description:
     "Real stories from the Medicare clients we've helped. See why families across the country trust Graham Financial Group.",
   alternates: { canonical: "/reviews" },
@@ -16,7 +16,7 @@ export default function ReviewsPage() {
       <PageHeader
         eyebrow="Reviews & Testimonials"
         headline="Real stories from our clients."
-        subheadline="Don't just take our word for it — hear directly from the families we've helped navigate Medicare with confidence."
+        subheadline="Don't just take our word for it. Hear directly from the families we've helped navigate Medicare with confidence."
       />
       <Testimonials showHeader={false} />
       <CTABanner

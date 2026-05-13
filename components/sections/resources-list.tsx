@@ -65,7 +65,7 @@ export function ResourcesList() {
             id="videos-title"
             className="heading-h1 text-[var(--color-foreground)]"
           >
-            Get started — short videos
+            Get started: short videos
           </h2>
           <p className="lead-text mt-4 max-w-2xl">
             CMS-produced explainers covering the most common Medicare questions.

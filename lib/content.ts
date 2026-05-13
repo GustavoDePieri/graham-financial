@@ -198,7 +198,7 @@ export interface FooterSection {
   copyright: string;
 }
 
-/* ============== About — extended (timeline + right-choice) ============== */
+/* ============== About: extended (timeline + right-choice) ============== */
 
 export interface AboutTimelineItem {
   year: string;
@@ -454,7 +454,7 @@ export const content: SiteContent = {
       line2: "Family-owned guidance since 1992.",
     },
     subheadline:
-      "Personalized, no-cost consultations from licensed brokers who treat every client like family. We help you understand your options and find the right plan — without the pressure.",
+      "Personalized, no-cost consultations from licensed brokers who treat every client like family. We help you understand your options and find the right plan, without the pressure.",
     ctas: [
       {
         label: "Call 561-547-7866",
@@ -472,7 +472,7 @@ export const content: SiteContent = {
     ],
     image: {
       src: "/images/family.png",
-      alt: "The Graham family — owners and team behind Graham Financial Group",
+      alt: "The Graham family, owners and team behind Graham Financial Group",
       width: 1170,
       height: 780,
     },
@@ -488,7 +488,7 @@ export const content: SiteContent = {
     eyebrow: "Why Graham",
     headline: "Independent guidance, the way it should be.",
     subheadline:
-      "We're not tied to a single carrier and we're not paid by you. Our only job is to find the plan that fits your needs — and to be here when life changes.",
+      "We're not tied to a single carrier and we're not paid by you. Our only job is to find the plan that fits your needs, and to be here when life changes.",
     cards: [
       {
         icon: "users",
@@ -498,7 +498,7 @@ export const content: SiteContent = {
       },
       {
         icon: "handshake",
-        title: "Independent — all major carriers",
+        title: "Independent across all major carriers",
         description:
           "We compare plans across the carriers we represent so you see real options, not a single sales pitch.",
       },
@@ -543,7 +543,7 @@ export const content: SiteContent = {
         title: "Medicare Supplements (Medigap)",
         shortLabel: "Medicare Supplement",
         description:
-          "Medigap helps cover deductibles, copays, and coinsurance that Original Medicare doesn't pay — protecting you from large out-of-pocket costs.",
+          "Medigap helps cover deductibles, copays, and coinsurance that Original Medicare doesn't pay, protecting you from large out-of-pocket costs.",
         bullets: [
           "Standardized plans across carriers",
           "See any doctor that accepts Medicare",
@@ -555,7 +555,7 @@ export const content: SiteContent = {
         id: "part-d",
         icon: "pill",
         title: "Medicare Part D",
-        shortLabel: "Part D — Prescription drug",
+        shortLabel: "Part D: Prescription drug",
         description:
           "Prescription drug coverage that pairs with Original Medicare or a Supplement. We compare plans against your specific medications to find the best fit.",
         bullets: [
@@ -571,7 +571,7 @@ export const content: SiteContent = {
         title: "Medicare Advantage (Part C)",
         shortLabel: "Medicare Advantage",
         description:
-          "An all-in-one private alternative that bundles Parts A, B, and usually D — often with extras like dental, vision, and fitness benefits.",
+          "An all-in-one private alternative that bundles Parts A, B, and usually D, often with extras like dental, vision, and fitness benefits.",
         bullets: [
           "Bundled medical, hospital, and drug coverage",
           "Often includes dental, vision, hearing",
@@ -587,7 +587,7 @@ export const content: SiteContent = {
     headline: "Three decades. Thousands of families. One promise.",
     paragraphs: [
       "Graham Financial Group is a family-owned insurance brokerage founded in 1992, headquartered in Lake Worth Beach, Florida and serving clients across the country.",
-      "Every client works directly with a licensed professional — not a call center — and we stay with you long after enrollment. That's the way it should be.",
+      "Every client works directly with a licensed professional, not a call center, and we stay with you long after enrollment. That's the way it should be.",
       "Whether you're approaching 65, switching plans during the Annual Enrollment Period, or simply trying to understand what you already have, we're here to walk you through it. No cost to talk with us. No pressure to enroll.",
     ],
     quote:
@@ -640,7 +640,7 @@ export const content: SiteContent = {
       {
         title: "Decades of expertise",
         description:
-          "We've been guiding clients through Medicare and Medicare Supplement choices since 1992 — giving us unmatched knowledge of how the system actually works.",
+          "We've been guiding clients through Medicare and Medicare Supplement choices since 1992, giving us unmatched knowledge of how the system actually works.",
       },
       {
         title: "Comprehensive solutions",
@@ -650,7 +650,7 @@ export const content: SiteContent = {
       {
         title: "Mastery of Medicare rules",
         description:
-          "Our team knows the rules, deadlines, penalties, and procedures inside and out — so you avoid costly missteps.",
+          "Our team knows the rules, deadlines, penalties, and procedures inside and out, so you avoid costly missteps.",
       },
       {
         title: "Nationwide recognition",
@@ -703,20 +703,20 @@ export const content: SiteContent = {
     eyebrow: "Medicare basics",
     headline: "Common questions, answered simply.",
     subheadline:
-      "If you don't see your question here, give us a call — we'll answer it in plain English.",
+      "If you don't see your question here, give us a call. We'll answer it in plain English.",
     items: [
       {
         id: "when-can-i-enroll",
         question: "When can I enroll in Medicare?",
         answer:
-          "Most people enroll during their Initial Enrollment Period — a seven-month window that begins three months before the month you turn 65. There are also Special Enrollment Periods if you're losing employer coverage, and the Annual Enrollment Period each fall (Oct 15–Dec 7) for plan changes. We'll help you figure out the right window for your situation.",
+          "Most people enroll during their Initial Enrollment Period, a seven-month window that begins three months before the month you turn 65. There are also Special Enrollment Periods if you're losing employer coverage, and the Annual Enrollment Period each fall (Oct 15–Dec 7) for plan changes. We'll help you figure out the right window for your situation.",
       },
       {
         id: "supplement-vs-advantage",
         question:
           "What's the difference between Medicare Supplement and Medicare Advantage?",
         answer:
-          "A Medicare Supplement (Medigap) works alongside Original Medicare to fill the gaps in deductibles and copays, and lets you see any doctor that accepts Medicare. A Medicare Advantage plan replaces Original Medicare with a private plan that bundles your benefits — often including drug coverage and extras — but typically uses a network of doctors. Which is right depends on your health, doctors, budget, and how much you travel.",
+          "A Medicare Supplement (Medigap) works alongside Original Medicare to fill the gaps in deductibles and copays, and lets you see any doctor that accepts Medicare. A Medicare Advantage plan replaces Original Medicare with a private plan that bundles your benefits (often including drug coverage and extras) but typically uses a network of doctors. Which is right depends on your health, doctors, budget, and how much you travel.",
       },
       {
         id: "do-i-need-part-d",
@@ -728,19 +728,19 @@ export const content: SiteContent = {
         id: "switching-plans-cost",
         question: "Will switching plans cost me anything?",
         answer:
-          "Reviewing your options with us is always free. If we find a plan that's a better fit, switching during the right enrollment window typically has no fee. Some plans require medical underwriting outside of guaranteed-issue periods — we'll explain exactly what applies to you before you decide.",
+          "Reviewing your options with us is always free. If we find a plan that's a better fit, switching during the right enrollment window typically has no fee. Some plans require medical underwriting outside of guaranteed-issue periods. We'll explain exactly what applies to you before you decide.",
       },
       {
         id: "keep-my-doctor",
         question: "Can I keep my doctor?",
         answer:
-          "Usually, yes — especially with Original Medicare and Medicare Supplements, which let you see any provider that accepts Medicare. With Medicare Advantage, your doctor needs to be in the plan's network. We always check your doctors against any plan we recommend before you enroll.",
+          "Usually, yes, especially with Original Medicare and Medicare Supplements, which let you see any provider that accepts Medicare. With Medicare Advantage, your doctor needs to be in the plan's network. We always check your doctors against any plan we recommend before you enroll.",
       },
       {
         id: "why-a-broker",
         question: "Why work with a broker instead of going direct?",
         answer:
-          "A broker compares plans across the carriers we represent so you see real options instead of a single company's pitch. Our service costs you nothing — we're paid by the carriers — and you get one trusted point of contact for life, not a different call center every year.",
+          "A broker compares plans across the carriers we represent so you see real options instead of a single company's pitch. Our service costs you nothing (we're paid by the carriers), and you get one trusted point of contact for life, not a different call center every year.",
       },
       {
         id: "do-you-serve-my-state",
@@ -755,13 +755,13 @@ export const content: SiteContent = {
     eyebrow: "Free consultation",
     headline: "Let's find the right plan for you.",
     subheadline:
-      "Free consultation. No obligation. Talk to a real licensed broker — usually within one business day.",
+      "Free consultation. No obligation. Talk to a real licensed broker, usually within one business day.",
     consentLabel:
       "I agree to be contacted by Graham Financial Group regarding Medicare and insurance options.",
     reasons: [
       { value: "medicare", label: "Medicare (Parts A & B)" },
       { value: "supplement", label: "Medicare Supplement" },
-      { value: "part-d", label: "Part D — Prescription drug" },
+      { value: "part-d", label: "Part D: Prescription drug" },
       { value: "advantage", label: "Medicare Advantage" },
       { value: "other", label: "Something else" },
     ],
@@ -826,7 +826,7 @@ export const content: SiteContent = {
     eyebrow: "Meet the team",
     headline: "The people behind every recommendation.",
     subheadline:
-      "Three generations of the Graham family, plus the licensed professionals we trust alongside them. Every client works directly with one of us — no call centers.",
+      "Three generations of the Graham family, plus the licensed professionals we trust alongside them. Every client works directly with one of us. No call centers.",
     members: [
       {
         id: "chris-graham",
@@ -935,7 +935,7 @@ export const content: SiteContent = {
           {
             id: "ssa-44",
             title:
-              "Medicare Income-Related Monthly Adjustment Amount — Life-Changing Event",
+              "Medicare Income-Related Monthly Adjustment Amount: Life-Changing Event",
             description:
               "If you've had a major life-changing event and your income has gone down, use this form to request a reduction in your income-related monthly adjustment amount (IRMAA).",
             formCode: "SSA-44",
@@ -950,7 +950,7 @@ export const content: SiteContent = {
         items: [
           {
             id: "ua-banking",
-            title: "Change banking information — United American",
+            title: "Change banking information for United American",
             description:
               "Update the banking information on file for your United American policy.",
             href: "https://webtricity-assets-2.wbtcdn.com/af09d715-b4da-4977-8025-692e5cd3e825/files/upload/bank-draft-change.15d86ab1332af0d83f11e4f70b4ec8a8c0933a2520c1c4d11978a5ba73dcd551.pdf",
@@ -984,13 +984,13 @@ export const content: SiteContent = {
     eyebrow: "Medicare resources",
     headline: "Helpful guides, in plain English.",
     subheadline:
-      "Trusted reference material from CMS and Medicare.gov, plus short videos to walk you through the basics. Save these for later — and call us when you have questions.",
+      "Trusted reference material from CMS and Medicare.gov, plus short videos to walk you through the basics. Save these for later, and call us when you have questions.",
     guides: [
       {
         id: "medicare-and-you-2026",
         title: "Medicare & You 2026",
         description:
-          "The official U.S. government Medicare handbook for 2026 — your complete reference for benefits, costs, and how Medicare works.",
+          "The official U.S. government Medicare handbook for 2026. Your complete reference for benefits, costs, and how Medicare works.",
         href: "https://webtricity-assets-2.wbtcdn.com/af09d715-b4da-4977-8025-692e5cd3e825/files/upload/medicare-and-you-2026.5689bc630b6b7ba4309e353502ee0f08f610b3d62fb4e47b35ba736a87e2e321.pdf",
         source: "CMS / Medicare.gov",
       },
@@ -1006,7 +1006,7 @@ export const content: SiteContent = {
         id: "choosing-medigap",
         title: "Choosing a Medigap Policy",
         description:
-          "A guide to Medicare Supplement (Medigap) plans — what they cover, how plans compare, and what to think about before enrolling.",
+          "A guide to Medicare Supplement (Medigap) plans: what they cover, how plans compare, and what to think about before enrolling.",
         href: "https://webtricity-assets-2.wbtcdn.com/af09d715-b4da-4977-8025-692e5cd3e825/files/upload/choosing-a-medigap-policy-0625.09b7a05683c0f55c8450e87a90d96ded013fcd17675481c813917755d91f717e.pdf",
         source: "CMS / Medicare.gov",
       },
@@ -1024,7 +1024,7 @@ export const content: SiteContent = {
         id: "parts-of-medicare",
         title: "The parts of Medicare",
         description:
-          "An introduction to Parts A, B, C, and D — what each covers and how they fit together.",
+          "An introduction to Parts A, B, C, and D: what each covers and how they fit together.",
         youTubeId: "MlNw4LovNjE",
       },
       {
@@ -1046,7 +1046,7 @@ export const content: SiteContent = {
         label: "Medicare.gov",
         href: "https://www.medicare.gov",
         description:
-          "The official U.S. government Medicare website — plan finder, eligibility, and more.",
+          "The official U.S. government Medicare website. Plan finder, eligibility, and more.",
       },
       {
         label: "1-800-MEDICARE",
@@ -1064,7 +1064,7 @@ export const content: SiteContent = {
         label: "State Health Insurance Programs (SHIP)",
         href: "https://www.shiphelp.org",
         description:
-          "Free local Medicare counseling in your state — independent of insurance companies.",
+          "Free local Medicare counseling in your state, independent of insurance companies.",
       },
     ],
   },
@@ -1077,7 +1077,7 @@ export const content: SiteContent = {
       {
         heading: "What we collect",
         paragraphs: [
-          "When you request a quote, contact us, or sign up to be a client, we collect the personal information you give us — typically your name, address, phone, and email — along with any details about the coverage you're asking about.",
+          "When you request a quote, contact us, or sign up to be a client, we collect the personal information you give us (typically your name, address, phone, and email), along with any details about the coverage you're asking about.",
           "When you browse our website, we automatically receive standard technical information (such as your IP address, browser, and operating system) to help us understand how the site is used and keep it secure.",
           "With your permission, we may send you periodic emails about our agency, plan changes, and Medicare deadlines that may affect you.",
         ],
@@ -1085,7 +1085,7 @@ export const content: SiteContent = {
       {
         heading: "Consent",
         paragraphs: [
-          "When you provide us with personal information for a specific purpose — for example, to request a Medicare plan comparison — we treat that as your consent to use the information for that purpose.",
+          "When you provide us with personal information for a specific purpose (for example, to request a Medicare plan comparison), we treat that as your consent to use the information for that purpose.",
           "If we ask for your information for a secondary reason such as marketing, we will either ask for your express consent or give you a clear opportunity to say no.",
           "You can withdraw your consent at any time by contacting us at info@grahamfinancial.org or calling 561-547-7866.",
         ],
@@ -1101,7 +1101,7 @@ export const content: SiteContent = {
       {
         heading: "Third-party services",
         paragraphs: [
-          "We use third-party tools — such as our website host, email provider, and analytics — that may receive limited information to provide their services. These providers act on our behalf and are not permitted to use your information for their own purposes beyond what's needed to operate the service.",
+          "We use third-party tools (such as our website host, email provider, and analytics) that may receive limited information to provide their services. These providers act on our behalf and are not permitted to use your information for their own purposes beyond what's needed to operate the service.",
           "If you click a link that takes you to another website, that site's privacy practices apply. We're not responsible for content or privacy practices on sites we don't operate.",
         ],
       },
@@ -1127,7 +1127,7 @@ export const content: SiteContent = {
       {
         heading: "Questions",
         paragraphs: [
-          "If you would like to access, correct, or delete the information we have about you — or if you have any questions about this policy — please contact us at info@grahamfinancial.org or 561-547-7866.",
+          "If you would like to access, correct, or delete the information we have about you, or if you have any questions about this policy, please contact us at info@grahamfinancial.org or 561-547-7866.",
         ],
       },
     ],
@@ -1146,7 +1146,7 @@ export const content: SiteContent = {
       {
         heading: "If something isn't working for you",
         paragraphs: [
-          "If any part of our website is hard to use or understand — or if you'd prefer to talk with a person — please tell us. We'll do our best to help you and to fix the issue.",
+          "If any part of our website is hard to use or understand, or if you'd prefer to talk with a person, please tell us. We'll do our best to help you and to fix the issue.",
         ],
       },
       {

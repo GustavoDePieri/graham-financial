@@ -4,7 +4,7 @@ import { RichText } from "@/components/sections/rich-text";
 import { content } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Graham Financial Group",
+  title: "Privacy Policy | Graham Financial Group",
   description:
     "How Graham Financial Group collects, uses, and protects your personal information.",
   alternates: { canonical: "/privacy-policy" },

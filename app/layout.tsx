@@ -57,7 +57,7 @@ export const metadata: Metadata = {
         url: asset("/og.png"),
         width: 1200,
         height: 630,
-        alt: `${business.name} — family-owned Medicare brokers since ${business.foundedYear}`,
+        alt: `${business.name}, family-owned Medicare brokers since ${business.foundedYear}`,
       },
     ],
   },

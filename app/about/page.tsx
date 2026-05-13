@@ -7,7 +7,7 @@ import { RightChoice } from "@/components/sections/right-choice";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "About — Family-Owned Medicare Brokers in Lake Worth Beach, FL",
+  title: "About | Family-Owned Medicare Brokers in Lake Worth Beach, FL",
   description:
     "Graham Financial Group is a family-owned, independent insurance agency serving Medicare clients since 1992. Three decades of expertise, a personal approach, and clients across the country.",
   alternates: { canonical: "/about" },
@@ -19,7 +19,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About our agency"
         headline="Family-owned. Independent. Since 1992."
-        subheadline="Three decades of guiding individuals, families, and retirees through Medicare and insurance — with clarity, patience, and zero pressure."
+        subheadline="Three decades of guiding individuals, families, and retirees through Medicare and insurance, with clarity, patience, and zero pressure."
       />
       <ThenAndNow />
       <About showHeader={false} />
@@ -30,7 +30,7 @@ export default function AboutPage() {
             <div className="flex-1">
               <span className="eyebrow">Meet the team</span>
               <h2 className="heading-h2 mt-3 text-[var(--color-foreground)]">
-                Three generations of Grahams — plus the licensed pros we trust alongside them.
+                Three generations of Grahams, plus the licensed pros we trust alongside them.
               </h2>
             </div>
             <Link
@@ -44,7 +44,7 @@ export default function AboutPage() {
       </section>
       <CTABanner
         headline="Let's talk."
-        subheadline="Whether you have questions, want a second opinion on your current policy, or are just starting the process — we're here to guide you every step of the way."
+        subheadline="Whether you have questions, want a second opinion on your current policy, or are just starting the process, we're here to guide you every step of the way."
       />
     </>
   );

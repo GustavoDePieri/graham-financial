@@ -5,7 +5,7 @@ import { CTABanner } from "@/components/sections/cta-banner";
 import { content } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Medicare Resources — Guides, Videos, and Helpful Links",
+  title: "Medicare Resources | Guides, Videos, and Helpful Links",
   description:
     "Trusted Medicare reference material from CMS and Medicare.gov: official guides, short explainer videos, and links to authoritative sources.",
   alternates: { canonical: "/resources" },

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   Theme tokens — Graham Financial Group
+   Theme tokens: Graham Financial Group
    Tailwind 4 CSS-first config (no tailwind.config.js).
    ============================================================ */
 
@@ -14,7 +14,7 @@
 
   /* ---------- Raw scales ---------- */
 
-  /* Navy — primary brand */
+  /* Navy: primary brand */
   --color-navy-50: #f2f5f9;
   --color-navy-100: #e1e8f0;
   --color-navy-200: #b8c5d6;
@@ -27,7 +27,7 @@
   --color-navy-900: #0a1f36;
   --color-navy-950: #06121f;
 
-  /* Gold — accent */
+  /* Gold: accent */
   --color-gold-50: #faf6ee;
   --color-gold-100: #f2e9d4;
   --color-gold-200: #e5d2a8;
@@ -39,13 +39,25 @@
   --color-gold-800: #5c4a2e;
   --color-gold-900: #3d311f;
 
-  /* Cream — surface warm */
+  /* Cream: surface warm */
   --color-cream-50: #fdfbf7;
   --color-cream-100: #faf7f2;
   --color-cream-200: #f1ebe0;
   --color-cream-300: #e5dbc8;
 
-  /* Ink — text */
+  /* Brand maroon: from the wordmark — used as heritage accent */
+  --color-brand-50: #fbf1f2;
+  --color-brand-100: #f3d7da;
+  --color-brand-200: #e3aab0;
+  --color-brand-300: #cf7882;
+  --color-brand-400: #b04955;
+  --color-brand-500: #8b1f2c;
+  --color-brand-600: #731822;
+  --color-brand-700: #5a131b;
+  --color-brand-800: #410d13;
+  --color-brand-900: #2a070c;
+
+  /* Ink: text */
   --color-ink-200: #c4ccd6;
   --color-ink-300: #94a0af;
   --color-ink-500: #5a6675;
@@ -74,6 +86,10 @@
   --color-accent: var(--color-gold-500);
   --color-accent-foreground: var(--color-navy-900);
   --color-accent-soft: var(--color-gold-100);
+
+  --color-brand: var(--color-brand-500);
+  --color-brand-foreground: #ffffff;
+  --color-brand-soft: var(--color-brand-50);
 
   --color-border: var(--color-cream-300);
   --color-border-strong: var(--color-ink-200);
@@ -252,7 +268,7 @@
 }
 
 /* ============================================================
-   Utilities — typography scale
+   Utilities: typography scale
    ============================================================ */
 
 @utility eyebrow {
@@ -263,7 +279,7 @@
   letter-spacing: 0.12em;
   line-height: 1.4;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-brand);
 }
 
 @utility heading-display-2xl {

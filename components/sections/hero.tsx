@@ -28,7 +28,7 @@ export function Hero() {
 
       <div className="container-prose pt-10 md:pt-16 pb-16 md:pb-24">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-          {/* Text — narrower so the photo can breathe */}
+          {/* Text: narrower so the photo can breathe */}
           <div className="lg:col-span-5 lg:order-1 order-1">
             {hero.eyebrow && <span className="eyebrow">{hero.eyebrow}</span>}
             <h1
@@ -61,7 +61,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Family photo — featured */}
+          {/* Family photo: featured */}
           <div className="lg:col-span-7 lg:order-2 order-2">
             <figure className="relative">
               {/* Decorative gold rule above */}
@@ -103,7 +103,7 @@ export function Hero() {
               </div>
 
               <figcaption className="mt-4 text-sm text-[var(--color-muted-foreground)] md:pl-1">
-                The Graham family — three generations guiding Medicare clients
+                The Graham family, three generations guiding Medicare clients
                 from Lake Worth Beach, FL.
               </figcaption>
             </figure>

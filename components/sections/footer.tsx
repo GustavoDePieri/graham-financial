@@ -43,19 +43,25 @@ export function Footer() {
   return (
     <footer
       aria-labelledby="footer-heading"
-      className="bg-[var(--color-inverse)] text-[var(--color-inverse-foreground)]"
+      className="relative bg-[var(--color-navy-950)] text-[var(--color-inverse-foreground)]"
     >
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
 
-      <div className="container-prose pt-16 pb-10 md:pt-20 md:pb-12">
+      {/* Brand accent rule — marks the transition from the contact section */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--color-brand-400)] to-transparent opacity-70"
+      />
+
+      <div className="container-prose pt-12 pb-10 md:pt-14 md:pb-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
           {/* Brand + contact */}
           <div className="md:col-span-12 lg:col-span-4">
             <Logo inverse />
             <p className="mt-5 text-[0.9375rem] text-[var(--color-inverse-muted-foreground)] leading-relaxed max-w-sm">
-              Family-owned Medicare insurance brokers in Lake Worth Beach, FL —
+              Family-owned Medicare insurance brokers in Lake Worth Beach, FL,
               guiding families with clarity, since {business.foundedYear}.
             </p>
             <address className="not-italic mt-6 space-y-3 text-[0.9375rem] text-[var(--color-inverse-muted-foreground)] leading-relaxed">
@@ -120,7 +126,7 @@ export function Footer() {
                 <ul className="space-y-1.5 text-sm text-[var(--color-inverse-muted-foreground)]">
                   {business.licenses.map((l) => (
                     <li key={l.number}>
-                      {l.holder} — {l.jurisdiction} #{l.number}
+                      {l.holder}, {l.jurisdiction} #{l.number}
                     </li>
                   ))}
                 </ul>

@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset-path";
 
 export function Logo({
   className,
@@ -7,28 +9,31 @@ export function Logo({
   className?: string;
   inverse?: boolean;
 }) {
-  return (
-    <span
-      className={cn(
-        "inline-flex items-baseline gap-1.5",
-        inverse ? "text-white" : "text-[var(--color-primary)]",
-        className,
-      )}
-      aria-label="Graham Financial Group"
-    >
-      <span className="font-display text-[1.375rem] md:text-2xl font-semibold tracking-tight leading-none">
-        Graham
-      </span>
+  const img = (
+    <Image
+      src={asset("/images/logo.png")}
+      alt="The Graham Insurance Group, Medicare Professional"
+      width={1000}
+      height={250}
+      priority
+      className="h-10 md:h-12 w-auto"
+    />
+  );
+
+  if (inverse) {
+    return (
       <span
         className={cn(
-          "font-sans text-[0.6875rem] md:text-xs uppercase font-semibold tracking-[0.18em] leading-none",
-          inverse
-            ? "text-[var(--color-gold-300)]"
-            : "text-[var(--color-accent)]",
+          "inline-flex items-center rounded-lg bg-[var(--color-cream-50)] px-4 py-2.5 ring-1 ring-[rgba(255,255,255,0.08)] shadow-[0_8px_24px_-12px_rgba(0,0,0,0.45)]",
+          className,
         )}
       >
-        Financial
+        {img}
       </span>
-    </span>
+    );
+  }
+
+  return (
+    <span className={cn("inline-flex items-center", className)}>{img}</span>
   );
 }

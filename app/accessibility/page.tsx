@@ -5,7 +5,7 @@ import { RichText } from "@/components/sections/rich-text";
 import { content } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Accessibility — Graham Financial Group",
+  title: "Accessibility | Graham Financial Group",
   description:
     "Our commitment to making grahamfinancial.org accessible to everyone, including how to reach us if you encounter difficulty.",
   alternates: { canonical: "/accessibility" },

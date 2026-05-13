@@ -21,7 +21,7 @@ function AboutBody() {
           {about.quote}
         </blockquote>
         <figcaption className="mt-4 text-sm uppercase tracking-[0.14em] font-semibold text-[var(--color-muted-foreground)]">
-          — The Graham Family
+          The Graham Family
         </figcaption>
       </figure>
 
@@ -70,7 +70,7 @@ export function About({
           </div>
         )}
 
-        {/* Highlights — full-width feature row */}
+        {/* Highlights: full-width feature row */}
         <div
           aria-hidden="true"
           className="mt-16 md:mt-20 h-px bg-gradient-to-r from-transparent via-[var(--color-border-strong)] to-transparent"

@@ -4,7 +4,7 @@ import { ContactInfo } from "@/components/sections/contact-info";
 import { ContactForm } from "@/components/sections/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact — Graham Financial Group",
+  title: "Contact | Graham Financial Group",
   description:
     "Reach Graham Financial Group in Lake Worth Beach, FL. Call 561-547-7866, send a message, or stop by our office. Free, no-pressure Medicare consultations.",
   alternates: { canonical: "/contact" },

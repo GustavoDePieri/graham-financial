@@ -6,9 +6,9 @@ import { FAQ } from "@/components/sections/faq";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "Medicare Coverage Options — Medicare, Medigap, Part D, Advantage",
+  title: "Medicare Coverage Options | Medicare, Medigap, Part D, Advantage",
   description:
-    "We help you understand and compare Medicare, Medicare Supplement (Medigap), Medicare Part D, and Medicare Advantage plans — at no cost to you.",
+    "We help you understand and compare Medicare, Medicare Supplement (Medigap), Medicare Part D, and Medicare Advantage plans, at no cost to you.",
   alternates: { canonical: "/services" },
 };
 
@@ -16,7 +16,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Your Medicare options simplified"
+        eyebrow="Medicare Made Clear"
         headline="Coverage explained, side by side."
         subheadline="A simple breakdown of the four main Medicare coverages we help our clients understand and enroll in every day."
       />

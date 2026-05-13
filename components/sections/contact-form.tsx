@@ -54,7 +54,7 @@ export function ContactForm() {
   });
 
   const onSubmit = async (values: ContactInput) => {
-    // Honeypot — silently succeed without sending anything.
+    // Honeypot: silently succeed without sending anything.
     if (values.website && values.website.length > 0) {
       setStatus("success");
       reset();
@@ -86,7 +86,7 @@ export function ContactForm() {
         body: JSON.stringify({
           ...payload,
           // Common provider conveniences:
-          _subject: `New consultation request — ${payload.firstName} ${payload.lastName} (${payload.state})`,
+          _subject: `New consultation request from ${payload.firstName} ${payload.lastName} (${payload.state})`,
           _replyto: payload.email,
         }),
       });
@@ -296,7 +296,7 @@ export function ContactForm() {
                   htmlFor="message"
                   error={errors.message?.message}
                   className="mt-5"
-                  hint="Optional — tell us a bit about your situation."
+                  hint="Optional, tell us a bit about your situation."
                 >
                   <Textarea
                     id="message"
@@ -309,7 +309,7 @@ export function ContactForm() {
                   />
                 </Field>
 
-                {/* Honeypot — must remain empty. Hidden from sighted users + AT. */}
+                {/* Honeypot: must remain empty. Hidden from sighted users + AT. */}
                 <div
                   aria-hidden="true"
                   className="absolute left-[-9999px] h-0 w-0 overflow-hidden"

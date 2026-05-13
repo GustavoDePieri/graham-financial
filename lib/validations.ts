@@ -44,7 +44,7 @@ export const contactSchema = z.object({
       message: "We need your permission to contact you.",
     }),
   }),
-  /** Honeypot — real users won't see this field. The submit handler
+  /** Honeypot: real users won't see this field. The submit handler
    * silently drops the request when this field has any value. */
   website: z.string().max(2000).optional().or(z.literal("")),
 });

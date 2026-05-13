@@ -47,7 +47,7 @@ export function LocalBusinessJsonLd() {
   return (
     <script
       type="application/ld+json"
-      // Stable, server-rendered string — safe.
+      // Stable, server-rendered string: safe.
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );

@@ -2,7 +2,7 @@
  * Prepend the configured `NEXT_PUBLIC_BASE_PATH` to a /public asset path.
  *
  * Why: Next.js does NOT auto-prefix `basePath` onto string-literal
- * `src`/`href` values that point into `/public` — only `_next/*` build
+ * `src`/`href` values that point into `/public`. Only `_next/*` build
  * assets get the assetPrefix applied automatically. So when the site is
  * hosted under a subpath (e.g. https://user.github.io/repo/), every
  * <Image src="/images/x.png">, <link rel="icon" href="/favicon.ico">,
