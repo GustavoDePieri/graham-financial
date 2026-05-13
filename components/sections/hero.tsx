@@ -88,8 +88,8 @@ export function Hero() {
 
                 {/* Editorial badge */}
                 <div className="absolute left-5 bottom-5 md:left-7 md:bottom-7 inline-flex items-center gap-3 rounded-full bg-[rgba(255,255,255,0.92)] backdrop-blur-sm border border-white/70 pl-2 pr-4 py-2 shadow-[0_4px_16px_rgba(15,44,74,0.18)]">
-                  <span className="inline-flex items-center justify-center h-8 w-8 rounded-full bg-[var(--color-primary)] text-[var(--color-gold-300)] font-display text-[0.6875rem] font-bold tracking-wider">
-                    GFG
+                  <span className="inline-flex items-center justify-center h-9 w-9 rounded-full bg-[var(--color-primary)] text-[var(--color-gold-300)] font-display text-[0.625rem] font-bold tracking-tight">
+                    TGIG
                   </span>
                   <span className="flex flex-col leading-tight">
                     <span className="text-[0.625rem] font-semibold tracking-[0.18em] uppercase text-[var(--color-muted-foreground)]">
